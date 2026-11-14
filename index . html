@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOUTH HUB | Empowering the Future</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #26344a;
+    line-height: 1.6;
+}
+
+header {
+    background: #071d3b;
+    color: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    color: #f5c542;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #f5c542;
+}
+
+.hero {
+    background: linear-gradient(120deg, #071d3b, #14558a);
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.hero span {
+    color: #f5c542;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: 15px auto 30px;
+}
+
+.button {
+    display: inline-block;
+    background: #f5c542;
+    color: #071d3b;
+    padding: 13px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 65px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    color: #071d3b;
+    margin-bottom: 20px;
+}
+
+.about {
+    background: #f4f7fb;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+    margin-top: 35px;
+}
+
+.card {
+    background: white;
+    padding: 28px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #14558a;
+    margin-bottom: 12px;
+}
+
+.icon {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.programs {
+    background: #f4f7fb;
+}
+
+.join {
+    background: #071d3b;
+    color: white;
+}
+
+.join h2 {
+    color: #f5c542;
+}
+
+.join p {
+    margin-bottom: 25px;
+}
+
+footer {
+    background: #041226;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+footer span {
+    color: #f5c542;
+}
+
+@media(max-width: 650px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">YOUTH HUB</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#opportunities">Opportunities</a>
+        <a href="#programs">Programs</a>
+        <a href="#join">Join Us</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <h1>WELCOME TO <span>YOUTH HUB</span></h1>
+
+    <p>
+        Empowering Youth. Creating Opportunities.
+        Building the Future.
+    </p>
+
+    <p>
+        Connecting young people around the world
+        with education, leadership, employment
+        and opportunities for success.
+    </p>
+
+    <a href="#join" class="button">JOIN OUR COMMUNITY</a>
+</div>
+
+<section class="about" id="about">
+    <h2>ABOUT YOUTH HUB</h2>
+
+    <p>
+        YOUTH HUB is an international youth empowerment
+        platform dedicated to connecting, educating
+        and empowering young people around the world.
+        We believe every young person deserves an
+        opportunity to learn, grow and succeed.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Our Mission</h3>
+            <p>
+                To empower young people through education,
+                leadership, innovation and opportunities.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Our Vision</h3>
+            <p>
+                To build a world where every young person
+                has the opportunity to achieve their dreams.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="opportunities">
+    <h2>EXPLORE OPPORTUNITIES</h2>
+
+    <p>Discover opportunities that can change your future.</p>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon">🎓</div>
+            <h3>Scholarships</h3>
+            <p>Discover educational funding and scholarship opportunities.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💼</div>
+            <h3>Jobs & Internships</h3>
+            <p>Explore employment, internships and career opportunities.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>Online Learning</h3>
+            <p>Find courses, training and learning resources.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🚀</div>
+            <h3>Entrepreneurship</h3>
+            <p>Develop business ideas and entrepreneurial skills.</p>
+        </div>
+    </div>
+</section>
+
+<section class="programs" id="programs">
+    <h2>OUR PROGRAMS</h2>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon">🌍</div>
+            <h3>Youth Leadership</h3>
+            <p>Developing responsible and confident young leaders.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🤝</div>
+            <h3>Community Development</h3>
+            <p>Encouraging young people
